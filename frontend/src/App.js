@@ -97,7 +97,7 @@ function App() {
       {
         label: 'BTC Price',
         data: marketData?.prices || [],
-        borderColor: 'var(--primary)',
+        borderColor: 'blue',
         backgroundColor: 'rgba(59, 130, 246, 0.1)',
         borderWidth: 2,
         tension: 0.1,
@@ -107,7 +107,7 @@ function App() {
       {
         label: 'SMA-5',
         data: marketData?.sma5 || [],
-        borderColor: 'var(--warning)',
+        borderColor: 'orange',
         borderWidth: 1.5,
         tension: 0,
         pointRadius: 0
@@ -115,7 +115,7 @@ function App() {
       {
         label: 'SMA-20',
         data: marketData?.sma20 || [],
-        borderColor: 'var(--secondary)',
+        borderColor: 'purple',
         borderWidth: 1.5,
         tension: 0,
         pointRadius: 0
