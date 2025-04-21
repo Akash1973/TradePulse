@@ -1,4 +1,4 @@
-# Algorithmic Trading Dashboard
+# TradePulse
 
 
 
